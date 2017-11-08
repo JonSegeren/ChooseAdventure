@@ -493,7 +493,7 @@ namespace ChooseAdventure
                 case 31:
                     sceneLabel.Text = "You slept, got a ton of mosquito bites and die of malaria.";
                     redLabel.Text = "Copntinue";
-                    blueLabel.Text = "";
+                    blueLabel.Text = "";  
                     winLose = "You lose. ";
                     break;
             }
