@@ -258,7 +258,7 @@ namespace ChooseAdventure
                 else if (scene == 5)
                 {
                     randomNumber = randGen.Next(1, 11);
-                    if (randomNumber >= 7)
+                    if (randomNumber <= 7)
                     {
                         scene = 11;
 
@@ -295,7 +295,7 @@ namespace ChooseAdventure
                     redLabel.Text="Continue";
                     blueLabel.Text = " ";
                     spaceLabel.Text = " "; 
-                    winLose = "You Lose!";
+                    winLose = "You Lose! ";
                     break;
                 case 3:
                     sceneLabel.Text = "It is getting dark. What do you do?";
@@ -413,6 +413,7 @@ namespace ChooseAdventure
                     redLabel.Text = " Continue";
                     blueLabel.Text = " ";
                     spaceLabel.Text = " ";
+                    winLose="You Lose. ";
                     break;
                 case 20:
                     sceneLabel.Text = "After months of living together you two fall in love";
@@ -446,7 +447,7 @@ namespace ChooseAdventure
                     redLabel.Text = "Continue ";
                     blueLabel.Text = " ";
                     spaceLabel.Text = " ";
-                    winLose = "RIP";
+                    winLose = "RIP. ";
                     break;
                 case 25:
                     sceneLabel.Text = "You had a nice salmon dinner";
